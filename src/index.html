@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Threejs Graces - By Anderson Mancini</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+        <meta name="description" content="A threejs graces renderer example using threejs boilerplate - by Anderson Mancini">
+
+        <meta property="og:url" content="https://threejs-graces.tiiny.site/">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="Threejs Graces - By Anderson Mancini">
+        <meta property="og:description" content="A threejs graces renderer example using threejs boilerplate - by Anderson Mancini">
+        <meta property="og:image" content="../static/textures/imageSocial.jpg">
+
+        <meta name="twitter:card" content="summary_large_image">
+        <meta property="twitter:domain" content="threejs-graces.tiiny.site/">
+        <meta property="twitter:url" content="https://threejs-graces.tiiny.site/">
+        <meta name="twitter:title" content="Threejs Graces - By Anderson Mancini">
+        <meta name="twitter:description" content="A threejs graces renderer example using threejs boilerplate - by Anderson Mancini">
+        <meta name="twitter:image" content="../static/textures/imageSocial.jpg">
+
+        <meta name="keywords" content="ThreeJS, HTML, CSS, JavaScript">
+        <meta name="author" content="Anderson Mancini">
+
+        <link rel="apple-touch-icon" sizes="180x180" href="../static/favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="../static/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="../static/favicon/favicon-16x16.png">
+        <link rel="manifest" href="../static/favicon/site.webmanifest">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Josefin+Sans&family=Nanum+Myeongjo&display=swap" rel="stylesheet">
+        
+        <body>
+            
+            <div class="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+            <div id="loading-text-intro"><p>Loading</p></div>
+
+            <div class="main-container" style="visibility:hidden;">
+                <nav class="header"><a class="active a"><span>ACCUEIL</span></a><a class="a"><span>A PROPOS</span></a>
+                    <div class="cursor"></div>
+                </nav>
+                
+                <div class="first">
+                    <h2>LE </h2>
+                    <h1>REVEIL A SONNE</h1>
+                    <p>
+                        Plongez dans l'obscurité éclairée par la lueur des savoirs interdits, où les secrets millénaires se révèlent aux initiés courageux. Nos formations sont des portails vers des mondes oubliés, des sentiers de connaissances occultes et des pratiques mystiques. Explorez les mystères de l'univers, percez les codes du cosmos et découvrez la véritable nature de votre être. Osez vous aventurer dans l'inconnu avec "Le Réveil a Sonné" et laissez-vous guider par la lumière obscure de la sagesse ancienne.
+                    </p>
+                </div>
+
+                <div class="section second">
+                    
+                    <div class="second-container">
+                        <h1>A PROPOS</h1>
+                        <ul>
+                            <li id="aglaea" class="active">2010</li>
+                            <li id="thalia"><a>2020</a></li>
+                            <li id="euphre">2024</li>
+                        </ul>
+                        <p id="content">
+                            Nous sommes fiers de notre équipe diversifiée de professionnels talentueux, passionnés par linnovation et déterminés à repousser les limites de la technologie. Ensemble, nous visons lexcellence dans tout ce que nous entreprenons, de la recherche et développement à la production et au service client.
+                        </p>
+                    </div>
+                    <div id="canvas-container-details"></div>
+                </div>
+
+                <div class="timeline">
+                    <div style="    text-align: -webkit-center;" class="outer">
+                      <div class="card">
+                        <div class="info">
+                          <h3 class="title">Etapes 1</h3>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                        </div>
+                      </div>
+                      <div class="card">
+                        <div class="info">
+                          <h3 class="title">Etapes 2</h3>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                        </div>
+                      </div>
+                      <div class="card">
+                        <div class="info">
+                          <h3 class="title">Etapes 3</h3>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                        </div>
+                      </div>
+                      <div class="card">
+                        <div class="info">
+                          <h3 class="title">Etapes 4</h3>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                        </div>
+                      </div>
+                      <div class="card">
+                        <div class="info">
+                          <h3 class="title">Etapes 5</h3>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                <div class="third">
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/PWirijQkH4M?si=6KzN_HtYwEPOOkoW" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+               
+              
+                                
+                <div id="canvas-container" class="fixed"></div> 
+                <h4 class="footer">Created by Datafuse <a href="https://datafuse.fr" target="_blank">Tom Bogner Design</a>. <a href="https://sketchfab.com/3d-models/3d-printable-the-three-graces-58e0ae19e2984b86883edc41bf43415a" target="_blank">Free model credits</a></h4>
+            </div>
+    </body>
+</html>
+
+<style>
+     .video-container {
+            max-width: 800px;
+            width: 100%;
+            text-align: center;
+        }
+        .video-container iframe {
+            width: 100%;
+            height: 400px; /* Hauteur fixe de la vidéo */
+            border: none; /* Supprime la bordure par défaut */
+        }
+</style>

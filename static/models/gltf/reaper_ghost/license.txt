@@ -1,0 +1,11 @@
+Model Information:
+* title:	Reaper Ghost
+* source:	https://sketchfab.com/3d-models/reaper-ghost-07947df1615943838c439eb66cd853a7
+* author:	Damn_Daniel (https://sketchfab.com/rajput.1561)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Reaper Ghost" (https://sketchfab.com/3d-models/reaper-ghost-07947df1615943838c439eb66cd853a7) by Damn_Daniel (https://sketchfab.com/rajput.1561) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
